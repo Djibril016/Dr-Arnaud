@@ -1,0 +1,319 @@
+/* ************************La partie responsive********************* */
+
+@media screen and (max-width:768px) {
+    html{
+        font-size: 12px;
+    }
+   
+    section{
+        width: auto;
+    }
+    /* .nav-card{
+        width: 100vw;
+    } */
+  
+    .navbar .name{
+        font-size: 2rem;
+       
+    }
+    .degr{
+        flex-direction: column;
+        
+    }
+    
+    .phd-image{
+        height: 120vh;
+        width: 130vw;
+    }
+    .petit-text{
+        padding-left: 10%;
+        padding-top: 2%;
+        padding-bottom: 4%;
+    }
+
+    .petit-text h2 {
+        margin-left: 10vw;
+    }
+    .petit-text .ss-titre{
+        margin-left: 10vw;
+    }
+    .petit-text .simple{
+        margin-left: 10vw;
+    }
+   
+    /* CECI C'EST LA CARTE BOOTSTRAP NOT(NAV) */
+    /* ******************************* */
+    
+    /* ********************************* */
+    .not-nav  {
+        height: 7.93rem;
+        /*  */
+        padding-bottom: 3.87rem;
+    }
+    .card-title{
+        font-family: "Montserrat-SemiBold";
+        font-size: 1.8rem;
+        font-weight: 600;
+        padding-top: -1.62rem;
+        line-height: 2.25rem;
+        margin-right: 5%;
+    }
+    /* ********************* */
+  
+    .ss-titre{
+        margin-left: 3%;
+    }
+    .slogan {
+        margin-top: 10%;
+        margin-left: 3%;
+    }
+    .coordonne{
+        margin-top: 8%;
+        margin-right: 7%;
+        width: 100%;
+        font-size: 1.16rem;
+    }
+    
+    /* **************** QUI SUIS-JE*************** */
+    .desc{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .description{
+      
+
+    }
+    .titre{
+        padding-bottom: 50px;
+        /* margin-top: -12%; */
+        margin-left: 16%;
+        
+       
+    }
+    .titre h1{
+        padding-left: 20%;
+    }
+    
+    /* ****************SKILLS******************** */
+    .skills img{
+        margin-left: 0%;
+        width: 97%;
+    }
+    .management{
+        margin-top: -3%;
+        margin-left: 8%;
+    }
+
+    /* ***************LEADERSHIP ASSOCIATIF**************** */
+  
+    .leadership-options{
+        padding-bottom: 2.93rem;
+       
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100vw;
+        padding-left: 1vw;
+    }
+    
+    .total-titre{
+        height: 3.26rem;
+    width: 19.18rem;
+    border-radius: 7px;
+    padding-top: 0.6rem;  
+    font-size: 1.57rem; 
+    }
+    .total-contenu{
+        width: 19.18rem;
+        font-size: 1.42rem;
+    }
+    .leadership{
+        margin-top: 0rem;
+        margin-left: 1%;
+        width: 100vw;
+    }
+    .leadership img{
+        width: 98%;
+        height: 80%;
+        
+    }
+    /* ******************EXPERIENCE PRO********************** */
+    .exp-lum{
+        margin-left: 65%;
+        position: absolute;
+        margin-top:-60px;
+         height: 55%;
+        width: 35%; 
+    }
+    .exp-lum img{
+        /* height: 228.97px;
+        width: 228.97; */
+        display: none;
+    }
+    
+.experiences .mission .conteneur{
+    display: inline-flex;
+    width: 100%;
+    margin-left: 0%;
+    color: rgba(1, 52, 128, 1);
+  
+}
+    .point, .Formation .point{
+        padding-top: 3%;
+        border-radius: 4px;
+    }
+     /* *******************FORMATION ET DISTINCTION**************       */
+    .formation img{
+        display: none;
+    }
+    .zone-point{
+        margin-left: 0vw;
+    }
+    .experiences .mission .date{
+        margin-right: 2vw;
+        text-align: right;
+    }
+    .point{
+        height: 0.2rem;
+        width: 1.5rem;
+        border-radius: 5px;
+        padding-top: 5vw;
+        
+    }
+
+    .Formation .mission .conteneur{
+        display: inline-flex;
+        width: 100%;
+        margin-left: -3%;
+      
+    }
+    .Formation .caf{
+        margin-right: -1px;
+    }
+    .Formation .caf-charge{
+        margin-left: -7px;
+    }
+    .Formation, .Formation .mission{
+        width: 100vw;
+    }
+   
+     .rubrique-distinct, .rubrique{
+        font-size: 1.5rem;
+        font-family: "Montserrat-Bold";
+    }
+    .context img, .context-distinction img{
+
+        height: 1.5rem;
+        width: 1.68rem;
+    }
+    .direction{
+        margin-top: 0%;
+    }
+    .prix-recu{
+        width: 100vw;
+    } 
+    .vecteur{
+        margin-left: 1%;
+    }
+    .vecteur img{
+        height: 3rem;
+    }
+    .nom-prix{
+        margin-left: 12%;
+    }
+    /* ******************PARTIE CONTACT********** */
+    .cadre-contact{
+        display: block;
+        font-family: "Montserrat";
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            width: 100vw;
+            margin-left: 1.5rem;
+        
+    }
+
+    .form-input{
+        padding-left: 2rem;
+    }
+    form{
+        margin-left: 7%;
+        padding-top: 7.94rem;
+        padding-bottom: 6.37rem;
+        width: 100%;
+    
+    }
+    .input-part{
+        margin-top: 40px;
+    }
+    .name-mail{
+        height: auto;
+        display: block;
+        flex-direction: column;
+        width: 85%;
+        /* border: 1px solid black; */
+    
+    }
+    .objet-div {
+        margin-top: -2rem;
+    }
+    .textarea{
+        margin-top: 1.5;
+    }
+    .button{
+        margin-top: -1.20rem;
+    }
+    .name-mail .mail{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 0.78rem;
+        
+    }
+    .name-mail .nom {
+        width: 100%;
+        
+    }
+    .objet, .button input, textarea{
+        width: 85%;
+    }
+   
+    .addresse h2{
+        font-size: 2.25rem;
+        font-weight: 600;
+        line-height: 3.37rem;
+        padding-top: 0.75rem;
+        width: 100vw;
+        margin-left: 0%;
+        text-align: center;
+    }
+    .addresse{
+        padding-bottom: 12%;
+        width: auto;
+        padding-top: 4%;
+        margin-left: 1%;
+        flex-direction: column;
+        flex-wrap: wrap;
+      
+    }
+    .addresse .coordonne{
+        margin-top: 1.12rem;
+        margin-left: 0;
+        font-size: 1.4rem;
+        font-family: "Montserrat-Regular";
+        font-weight: 550;
+        text-align: center;
+        width: 100%; 
+        
+    }
+    .global{
+        text-align: center;
+        margin-left: 0%;
+        
+    }
+    
+}

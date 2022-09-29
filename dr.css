@@ -1,0 +1,796 @@
+
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url("font/Poppins-Bold.ttf") format("truetype");
+ }
+ @font-face {
+    font-family: "Poppins-Regular";
+    src: url("font/Poppins-Regular.ttf") format("truetype");
+ }
+ 
+ @font-face {
+    font-family: "Poppins-SemiBold";
+    src: url("font/Poppins-SemiBold.ttf") format("truetype");
+ }
+ @font-face {
+    font-family: "Poppins-Medium";
+    src: url("font/Poppins-Medium.ttf") format("truetype");
+ }
+ @font-face {
+    font-family: "Montserrat-Bold";
+    src: url("font/Montserrat-Bold.ttf") format("truetype");
+ }
+
+ @font-face {
+    font-family: "Montserrat-Regular";
+    src: url("font/Montserrat-Regular.ttf") format("truetype");
+ }
+ @font-face {
+    font-family: "Montserrat-ExtraBold";
+    src: url("font/Montserrat-ExtraBold.otf") format("truetype");
+ }
+
+
+ @font-face {
+    font-family: "Montserrat-SemiBold";
+    src: url("font/Montserrat-SemiBold.otf") format("truetype");
+ }
+ @font-face {
+    font-family: "Montserrat-Thin";
+    src: url("font/Montserrat-Thin.ttf") format("truetype");
+ }
+ @font-face {
+    font-family: "Montserrat";
+    src: url("font/Montserrat-VariableFont_wght") format("truetype");
+ }
+ /* body{
+    font-family: "Montserrat";
+ } */
+section{
+    width: 100vw;
+
+}
+html{
+    font-family: "Montserrat";
+    width: 90.43rem;
+}
+
+  
+/* ************************1ere section**************************** */
+
+#navbar{
+    height: 7.06rem;
+    width: auto;
+    padding-top: 1.25rem;
+    box-shadow: 1.2px 1.2px 1.2px 1.2px  rgb(207, 200, 200);
+}
+
+.image-part{
+ /* margin-top: 3%; */
+}
+
+.phd-image{
+    /* height: 66.37rem;
+    width: 49.43rem; */
+    top: 85px;
+    border-radius: 0px;
+
+}
+
+.leadership-options {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: flex-start;
+	align-content: center;
+}
+
+.option-container {
+    padding-top: 2.93rem;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+}
+
+.navbar .name{
+    color: rgba(2, 56, 137, 1);
+    font-size: 2.3vw;
+    font-family: "Montserrat-ExtraBold";
+}
+
+.navbar-nav {
+   font-family: "Montserrat-SemiBold";
+    font-size: 0.87rem;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0px;
+    /* border: 1px solid black; */
+    width: 60vw;
+
+
+}
+.navbar-nav li{
+    padding: 0px 30px;
+    width: auto;
+}
+.navbar-nav li a:hover{
+
+}
+
+
+.degr{
+    width: 100%;
+}
+.petit-text{
+    padding-top: 6%;
+    background: linear-gradient(270deg, #FFFFFF 88.29%, rgba(255, 255, 255, 0) 98.44%);
+    height: auto;
+    padding-bottom: 50px;
+     
+  }
+.petit-text h2{
+    font-family: "Montserrat-Bold";
+    font-weight: 300;
+    line-height: 11px;
+    font-size: 2.81rem;
+    font-weight: 600;
+    line-height: 54px;
+}
+#pdg{
+    /* background: linear-gradient(to left, white, 95% , transparent); */
+    width: 66%;
+    height: auto;
+    padding-top: 5%;
+    margin-left: -18%;
+    padding-left: 13%;
+}
+#pdg h5{
+    line-height: 28.5px;
+}
+.ss-titre{
+    font-family: "Montserrat-SemiBold";
+    line-height: 34.5px;
+    font-size: 1.5rem;
+}
+.simple{
+   font-family: "Montserrat-Thin";
+    font-size:1.26rem;
+    line-height: 39.5px;
+    font-weight: 700;
+}
+
+.slogan{
+   font-size: 1.68rem;
+    height: auto;
+    width: auto;
+    color: rgb(247, 84, 9);
+    margin-top: 18%;
+    font-family: "Montserrat-Bold";
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: center;
+   
+
+}
+.coordonne{
+    font-family: "Montserrat-SemiBold";
+    margin-top: 56%;
+    font-size: 1.56rem;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-right: 2%;
+}
+.global{
+    line-height: 22.5px;
+    text-align: justify;
+    width: auto;
+}
+.reseau{
+    border-left: 1px solid rgb(223, 221, 221);
+    
+}
+.reseau img{
+    padding-left: 2%;
+}
+.icone{
+    padding-right: 3px;
+}
+
+.num{
+    padding-right: 1%;
+}
+
+/* ****************************SKILLS************************ */
+.skills{
+    padding-bottom: 2.75rem;
+}
+.skills img{
+    margin-left: 3%;
+    width: 94%;
+    margin-right: 3%;
+}
+.management{
+    margin-top: 1.5rem;
+    margin-left: 8%;
+}
+.technique {
+
+}
+
+/* *********************LEADERSHIP ASSOCIATIF************************ */
+.leadership-assoc{
+    padding-bottom: 4.81rem;
+}
+.total{
+    margin-top: 4.06rem;
+}
+
+ 
+.total-titre{
+    font-family: "Montserrat-ExtraBold";
+    height: 4.56rem;
+    width: 21.18rem;
+    border-radius: 10px;
+    background-color: rgba(232, 96, 48, 1);  
+    padding-top: 0.8rem;  
+    text-align: center;  
+    font-size: 1.87rem;  
+    color: rgba(255, 255, 255, 1);
+}
+
+.total-contenu{
+    font-family: "Montserrat-Bold";
+    height: auto;
+    width: 21.18rem;
+    margin-top: 0.37rem;
+    padding-top: 1.36rem;
+    padding-bottom: 0.4rem;
+    padding-left: 1.18rem;
+    border-radius: 10px;
+    background-color: rgba(2, 56, 137, 1);
+    font-family: Montserrat;
+    font-size: 1.62rem;
+    font-weight: 700;
+    line-height: 2.56rem;
+    letter-spacing: 0px;
+    color: rgba(255, 255, 255, 1);
+    
+}
+.l1, .l2, .l3, .l4, .l5{
+    padding-top: 1.87rem;
+}
+.leadership{
+        
+    margin-top: -34vw;
+    margin-left: 1.5%;
+}
+.leadership img{
+    width: 72vw;
+    height: 37vw;
+    
+}
+
+/* ******************************2eme section************************** */
+.desc{
+   
+    display: inline-flex;
+    flex-direction: row;
+    border: 1px solid black;
+    height: auto;
+    padding-top: 85px;
+    padding-bottom: 80px;
+    width: 99%;
+    background: rgb(19, 5, 100);
+
+}
+.titre{
+    color: rgba(255, 122, 80, 1);
+    height: auto;
+    /* border: 1px solid black; */
+    margin-left: 3.93rem;
+    display: inline-flex;
+    width: 57.68rem;
+    text-align: justify;
+    font-family: "Montserrat-SemiBold";
+    font-size: 1.43rem;
+    font-weight: 600;
+    line-height: 2.06rem;
+    letter-spacing: 0px;
+}
+.description{
+    font-family: "Montserrat-Regular";
+    color: rgb(233, 233, 233);
+    text-align: justify;
+    font-size: 1.43rem;
+    font-weight: 300;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    margin-left: 3%;
+    
+    width: 96%;
+       
+}
+.global{
+    line-height: 44.5px;
+    /* line-height: 2%; */
+}
+.titre h1{
+    display: inline;
+    font-size: 4.37rem;
+    font-weight: 600;
+    line-height: 4.25rem;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+.qui, .questions{
+    font-size: 4.37rem;
+}
+.questions{
+   
+    width: auto;
+    line-height: 44px;
+}
+
+.quiztag{
+    font-size: 8rem;
+    font-weight: 600;
+    line-height: 2.87rem;
+    letter-spacing: 0px;
+
+}
+
+/* ****************************3eme section et 4eme section*************************** */
+/* *************EXPERIENCE PRO******************* */
+
+.not-nav{
+    height: 9.93rem;
+}
+.exp-lum{
+    margin-left: 66%;
+    position: absolute;
+    /* margin-top:-180px; */
+    margin-top: -14%;
+    height: 528.97px;
+    width: 528.61px;
+}
+.exp-lum img{
+    height: 120%;
+    width: 100%;
+    border-radius: 0px;
+    /* border: 1px solid black; */
+    
+}
+
+.experiences .mission .conteneur{
+    display: inline-flex;
+    width: 100%;
+    margin-left: 10%;
+    color: rgba(1, 52, 128, 1);
+  
+}
+.experiences .mission .date b{
+    font-family: "Montserrat-SemiBold";
+    font-size: 1.25rem;
+    position: relative;
+}
+
+.fixed-auto{
+    height: 25px;
+    width: 25px;
+    margin-left: 150px;
+}
+
+.experiences .mission .date{
+    width: 36rem;
+    text-align: right;
+    line-height: 1.87rem;
+    font-family: "Montserrat-Regular";
+    font-weight: 400;
+}
+.experiences .mission .charge{
+    width: 100px;
+    font-size: 1.12rem;
+    font-weight: 400;
+    line-height: 32.4px;
+    letter-spacing: 0em;
+    text-align: justify;
+    text-transform: capitalize;
+    font-family: "Poppins-Regular";
+}
+.experiences .mission .charge b{   
+    text-transform: capitalize;
+}
+.charge-de{
+    list-style: none;
+    margin-left: -3%;
+}
+/* **************************FORMATION******************* */
+.Formation .mission .conteneur{
+    display: inline-flex;
+    width: 100%;
+    margin-left: 1px;
+  
+}
+.Formation .caf{
+    margin-right: -25px;
+}
+.Formation .caf-charge{
+    margin-left: -27px;
+}
+.Formation .point{
+    height: 1.56rem;
+    width: 1.56rem;
+    border-radius: 9px;
+    background-color: rgb(247, 84, 9);
+    z-index: 1;
+}
+.Formation .zone-point{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+.Formation .tiret{
+    position: absolute;
+    margin: 0 38%;
+    top: 0px;
+    height: 100%;
+    width: 1px;
+    background-color: rgb(177, 174, 174);
+    
+}
+.Formation .mission .date b{
+    font-family: "Montserrat-SemiBold";
+    font-size: 1.25rem;
+    position: relative;
+}
+
+.Formation .charge{
+    width: 100px;
+    font-size: 1.12rem;
+    font-weight: 400;
+    line-height: 32.4px;
+    letter-spacing: 0em;
+    text-align: justify;
+
+    font-family: "Poppins-Regular";
+
+}
+
+.formation{
+    margin-left: 82.5%;
+    position: absolute;
+    height: 92%;
+    margin-top: 2.5px;
+}
+.formation img{
+    height: 100%;
+}
+.card-title{
+    font-family: "Montserrat-SemiBold";
+    height: 169px;
+    margin-top: 2.5%;
+  position: relative;
+    border-radius: 0px;
+    color: rgba(2, 56, 137, 1);
+    font-size: 2.5rem;
+    padding: 12px;
+}
+.Formation{
+    display: inline-flex;
+     color: rgba(2, 56, 137, 1);
+}
+
+/* **************RUBRIQUE FORMATION********************* */
+.context {
+   display: inline-flex;
+   margin-right: 38%;
+}
+.direction{
+    margin-left: 4.94rem;
+    position: absolute;
+
+}
+.direction-distinct{
+    position: absolute;
+    margin-left: 3.5%;
+}
+.rubrique-distinct{
+    margin-left: 8.94rem;
+    position: relative;
+}
+.rubrique{
+    margin-left: 10.94rem;
+    position: relative;
+}
+
+
+/* *********************************RUBRIQUE DISTINCTION*********************** */
+.distinction{
+    padding-bottom: 7%;
+}
+.context-distinction{
+    margin-left: 3.43rem;
+}
+.context-distinction img, .direction{
+    width: 2.68rem;
+    height: 3.43rem;
+}
+.prix-recu{
+    font-family: "Poppins-Regular";
+    padding-top: 1.73rem;
+    font-size: 1.37rem;
+    height: auto;
+    /* border: 1px solid black; */
+    text-transform: uppercase;
+}
+.premier{
+    padding-top: 2.56rem;
+}
+
+.vecteur{
+    margin-left: 12rem;
+}
+.vecteur img{
+   position: absolute;
+   width: 2.93rem;
+   height: 3.12rem;
+
+}
+.nom-prix{
+    line-height: 2.06rem;
+    margin-left: 16.67rem;
+    font-size: 1.37rem;
+    font-family: "Poppins-Medium";
+}
+.nom-prix span{
+    font-family: "Montserrat-SemiBold";
+   position: relative;
+  padding-top: 20px;
+   font-weight: 500;
+   
+}
+
+
+.mission .conteneur{
+    display: inline-flex;
+    width: 100%;
+    margin-left: 10%;
+  
+}
+.mission .date b{
+    font-family: "Montserrat-SemiBold";
+    font-size: 1.25rem;
+    position: relative;
+}
+
+.fixed-auto{
+    height: 25px;
+    width: 25px;
+    margin-left: 150px;
+}
+
+.mission .date{
+    width: 36rem;
+    text-align: right;
+    line-height: 1.87rem;
+    font-family: "Montserrat-Regular";
+    color: rgba(1, 52, 128, 1);
+    font-weight: 400;
+    /* border: 1px solid black; */
+}
+.caf{
+    margin-right: -25px;
+}
+.caf-charge{
+    margin-left: -27px;
+}
+.point{
+    height: 1.56rem;
+    width: 1.56rem;
+    border-radius: 9px;
+    background-color: rgb(247, 84, 9);
+    z-index: 1;
+}
+.zone-point{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+.tiret{
+    position: absolute;
+    margin: 0 38%;
+    top: 0px;
+    height: 100%;
+    width: 1px;
+    background-color: rgb(177, 174, 174);
+}
+.mission .charge{
+    /* padding-left: 4%; */
+    /* border: 1px solid rgba(217, 217, 217, 1); */
+    width: 100px;
+    font-size: 1.12rem;
+    font-weight: 400;
+    line-height: 32.4px;
+    letter-spacing: 0em;
+    text-align: justify;
+
+    font-family: "Poppins-Regular";
+
+}
+
+.charge b{
+    font-family: "Poppins-SemiBold";
+    font-size: 1.25rem;
+}
+
+/* **********************ME CONTACTER PART********************** */
+#section5{
+    /* border: 1px solid black; */
+}
+.cadre-contact{
+    margin-left: 2%;
+    
+}
+.cadre-contact input, textarea{ 
+    border-radius: 5px;
+    border: 1px solid rgb(223, 216, 216);
+}
+.cadre-contact input, textarea ::placeholder{
+    font-family: "Montserrat-Regular";
+    /* color: rgb(223, 216, 216); */
+}
+.input-part{
+}
+.name-mail{
+    display: inline-flex;
+    /* width: 569px; */
+    width: 100%;
+
+}
+.nom, .mail, .objet, .button input{
+    height: 2.87rem;
+    border: 1px solid #CCCCCC;
+
+}
+
+::placeholder {
+    color: #CCCCCC;
+    opacity: 1; /* Firefox */
+    font-family: "Montserrat-Thin";
+    padding-top: 0.75rem;
+    padding-left: 0.93rem;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+
+  }
+  :-webkit-input-placeholder {
+    /* Chrome, Safari, Opera */
+    color: #CCCCCC;
+  }
+  ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #CCCCCC;
+  }
+
+/* CASE MAIL  */
+.name-mail .mail{
+    width: 21.53rem;
+    margin-left: 4%;
+}
+/* NOM  */
+.name-mail .nom{
+        width: 13.12rem;  
+}
+
+textarea, .objet, .name-mail{
+  
+width: 100%;
+}
+.textarea, .objet-div {
+    margin-top: -0.78rem;
+}
+.button{
+    margin-top: -1.20rem;
+}
+.button input{
+    width: 100%;
+   background: rgba(232, 96, 48, 1); 
+   color: rgba(255, 255, 255, 1);
+   font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+
+form{
+    margin-left: auto;
+    padding-top: 7.94rem;
+    padding-bottom: 6.37rem;
+    width: 576px;
+
+}
+.form-input{
+   
+    padding-left: 10%;
+    font-family: "Montserrat";   
+}
+.addresse{
+    width: 100%;
+}
+.addresse h2{
+    font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 3.37rem;
+    padding-top: 13.75rem;
+    margin-left: 5.81rem;
+}
+.addresse .coordonne{
+    margin-top: 1.12rem;
+    margin-left: 15%;
+    font-size: 1.7rem;
+    font-family: "Montserrat-Regular";
+    font-weight: 550;
+}
+.addresse .coordonne .reseau{
+    border-left: 1px solid rgb(167, 161, 161);
+}
+
+/* *****************ICONE RESEAU PART********************* */
+.fa-envelope, .fa-phone{
+    color: rgb(238, 78, 78);
+    font-size: 27px;
+}
+.fa-facebook-f, .fa-youtube, .fa-linkedin, .fa-instagram{
+    font-size: 1.43rem;
+    padding-left: 1rem;
+}
+.fa-facebook-f{
+    color: rgb(48, 48, 170);
+}
+.fa-youtube{
+    color: rgb(245, 35, 35);
+}
+.fa-linkedin{
+    color: rgb(76, 76, 207);
+}
+.fa-instagram{
+    color: rgb(245, 67, 96);
+}
+
+/* *************COPYRIGHT PART*************** */
+.copyright{
+    background: rgba(217, 217, 217, 1);
+}
+
+.our-names{
+    height: 66px;
+    font-size: 1.25rem;
+    color: black;
+    margin-left: 184px;
+    padding-top: 0.8%;
+
+}
+.copy{
+    font-size: 1.93rem;
+    padding-top: 0.8%;
+
+}
+/* ************************La partie responsive********************* */
+
+

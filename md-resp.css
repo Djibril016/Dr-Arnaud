@@ -1,0 +1,165 @@
+@media screen and (min-width:768px) and (max-width:990px){
+
+    html{
+        font-size: 13px;
+    }
+
+    section{
+        width: auto;
+    }
+  
+    /* .nav-card{
+        width: 100vw;
+    } */
+    /* ************IMAGE PART********** */
+    .degr{ 
+    }
+    #navbar{
+    }
+    .phd-image{
+        height: 120vh;
+        width: 90vw;
+    }
+    .petit-text{
+        padding-left: 10%;
+        padding-top: 2%;
+        padding-bottom: 4%;
+    }
+
+    .petit-text h2, .petit-text .ss-titre,.petit-text .simple{
+        margin-left: 1vw;
+    }
+    .coordonne{
+        margin-top: 38%;
+        margin-right: 2%;
+        width: 130%;
+        
+        
+    }
+    /* *******************EXPERIENCE*************** */
+    .exp-lum{
+        margin-left: 53vw;
+        position: absolute;
+        margin-top: -14%;
+        height: 35vw;
+        width: 45vw;
+    }
+    .exp-lum img{
+        height: 120%;
+        width: 100%;
+        border-radius: 0px;
+        /*  */
+        
+    }
+    /* **********FORMATION ET DISTINCTION********** */
+    .formation{
+    }
+   .formation img{
+        height: 12vw;
+        width: 20vw;
+        margin-left: -3vw;
+   } 
+    
+    .point, .Formation .point{
+        border-radius: 4px;
+    }
+    /* **************DESCRIPTION************* */
+    .quiztag{
+        font-size: 8rem;
+        font-weight: 600;
+        line-height: 7.87rem;
+        letter-spacing: 0px;
+    
+    }
+    /* **************LEADERSHIP MD************ */
+    
+     
+    .total-titre{
+        font-family: "Montserrat-ExtraBold";
+        height: 4.56rem;
+        width: 17.18rem;
+        border-radius: 10px;
+        background-color: rgba(232, 96, 48, 1);  
+        padding-top: 0.8rem;  
+        text-align: center;  
+        font-size: 1.67rem;  
+        color: rgba(255, 255, 255, 1);
+    }
+    
+    .total-contenu{
+        font-family: "Montserrat-Bold";
+        height: auto;
+        width: 17.18rem;
+        margin-top: 0.37rem;
+        padding-top: 1.36rem;
+        padding-bottom: 0.4rem;
+        padding-left: 0.7rem;
+        border-radius: 10px;
+        background-color: rgba(2, 56, 137, 1);
+        font-family: Montserrat;
+        font-size: 1.22rem;
+        font-weight: 700;
+        line-height: 2rem;
+        letter-spacing: 0px;
+        color: rgba(255, 255, 255, 1);
+        
+    }
+    .l1, .l2, .l3, .l4, .l5{
+        padding-top: 1.87rem;
+    }
+    .leadership{
+        margin-top: 2rem;
+        padding-bottom: 4rem;
+    }
+    .leadership img{
+        width: 90vw;
+        height: 40.68rem;
+        margin-left: 1.5%
+        
+       
+        
+    }
+    /* ******************CONTACT***************** */
+    .cadre-contact{
+        display: block;
+        font-family: "Montserrat";
+    }
+    .input-part{
+        margin-left: 20%;
+        margin-top: 40px;
+    }
+    .name-mail{
+        display: inline-flex;
+        width: 120%;
+    
+    }
+    .name-mail .mail{
+        width: 90%;
+        
+    }
+    .objet, .button input, textarea{
+        width: 120%;
+    }
+   
+    .addresse h2{
+        font-size: 2.25rem;
+        font-weight: 600;
+        line-height: 3.37rem;
+        padding-top: 0.75rem;
+        margin-left: 6.81rem;
+    }
+    .addresse{
+        padding-bottom: 12%;
+        width: 100%;
+        padding-top: 4%;
+        margin-left: 5%;
+    }
+    
+    .addresse .coordonne{
+        
+        text-align: center;
+        width: auto;
+    }
+
+    
+ }
